@@ -1,0 +1,25 @@
+{{#if submitHelpRequest}}
+  <h1>Request Help</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="names">Names:</label>
+          {{input value=names id="names"}}
+        </div>
+
+        <div class="form-group">
+          <label for="issue">Problem:</label>
+          {{input value=issue id="issue"}}
+        </div>
+
+        <div class="form-group">
+          <label for="station">Location:</label>
+          {{input value=station id="station"}}
+        </div>
+
+        <button {{action 'save1'}}>Submit Help Request</button>
+      </form>
+    </div>
+{{else}}
+    <button {{action 'HelpFormShow'}}>Help!</button>
+{{/if}}

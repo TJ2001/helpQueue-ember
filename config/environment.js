@@ -12,6 +12,12 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    firebase: {
+      apiKey: "AIzaSyB7e-zEA4M6MkvVWPxwhVz_q8UpCDJr6hg",
+      authDomain: "helpqueue-b6570.firebaseapp.com",
+      databaseURL: "https://helpqueue-b6570.firebaseio.com",
+      storageBucket: "",
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
